@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Task2VC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Task1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="Task2VC" customModule="Task1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -316,7 +316,6 @@
                                 <exclude reference="7z5-d7-475"/>
                                 <exclude reference="89V-nM-mrS"/>
                                 <exclude reference="BpG-jg-HKt"/>
-                                <exclude reference="O6e-rs-oIe"/>
                                 <exclude reference="RJR-9R-cVZ"/>
                                 <exclude reference="uec-9t-Ogo"/>
                                 <exclude reference="JG6-ow-mq7"/>
@@ -338,6 +337,7 @@
                                 <exclude reference="ldc-JF-d0j"/>
                                 <exclude reference="CFM-H9-zKc"/>
                                 <exclude reference="F7k-MS-Vuf"/>
+                                <exclude reference="O6e-rs-oIe"/>
                                 <exclude reference="Qvt-RO-YdD"/>
                                 <exclude reference="YKf-jK-2Nu"/>
                                 <exclude reference="zZv-mg-Npe"/>
@@ -346,7 +346,6 @@
                         <variation key="heightClass=compact-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="7z5-d7-475"/>
-                                <include reference="O6e-rs-oIe"/>
                                 <include reference="JG6-ow-mq7"/>
                                 <include reference="Nna-VN-Cum"/>
                                 <include reference="43f-6i-a9n"/>
@@ -357,6 +356,7 @@
                                 <include reference="dVl-dk-CXb"/>
                                 <include reference="hCi-NF-M95"/>
                                 <include reference="ldc-JF-d0j"/>
+                                <include reference="O6e-rs-oIe"/>
                                 <include reference="YKf-jK-2Nu"/>
                                 <include reference="zZv-mg-Npe"/>
                             </mask>
@@ -364,7 +364,6 @@
                         <variation key="heightClass=compact-widthClass=regular">
                             <mask key="constraints">
                                 <include reference="7z5-d7-475"/>
-                                <include reference="O6e-rs-oIe"/>
                                 <include reference="JG6-ow-mq7"/>
                                 <include reference="Nna-VN-Cum"/>
                                 <include reference="43f-6i-a9n"/>
@@ -374,6 +373,7 @@
                                 <include reference="O1x-sR-72C"/>
                                 <include reference="dVl-dk-CXb"/>
                                 <include reference="ldc-JF-d0j"/>
+                                <include reference="O6e-rs-oIe"/>
                                 <include reference="YKf-jK-2Nu"/>
                                 <include reference="zZv-mg-Npe"/>
                             </mask>
@@ -381,7 +381,6 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="BpG-jg-HKt"/>
-                                <include reference="O6e-rs-oIe"/>
                                 <include reference="uec-9t-Ogo"/>
                                 <include reference="JG6-ow-mq7"/>
                                 <include reference="Nna-VN-Cum"/>
@@ -393,6 +392,7 @@
                                 <include reference="dVl-dk-CXb"/>
                                 <include reference="hpv-kJ-3Sj"/>
                                 <include reference="CFM-H9-zKc"/>
+                                <include reference="O6e-rs-oIe"/>
                                 <include reference="zZv-mg-Npe"/>
                             </mask>
                         </variation>
