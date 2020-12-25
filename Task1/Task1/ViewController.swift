@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
   }
+  
+  override func overrideTraitCollection(forChild childViewController: UIViewController) -> UITraitCollection? {
+    if view.bounds.width < view.bounds.height {
+        return UITraitCollection(horizontalSizeClass: .compact)
+    } else {
+        return UITraitCollection(horizontalSizeClass: .regular)
+    }
+  }
 
 
 }
