@@ -13,6 +13,7 @@
 		E5DC8EFB25931A9C002A1CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DC8EF925931A9C002A1CA4 /* Main.storyboard */; };
 		E5DC8EFD25931A9E002A1CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DC8EFC25931A9E002A1CA4 /* Assets.xcassets */; };
 		E5DC8F0025931A9E002A1CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DC8EFE25931A9E002A1CA4 /* LaunchScreen.storyboard */; };
+		E5DC8FC42598E902002A1CA4 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DC8FC32598E902002A1CA4 /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E5DC8EFC25931A9E002A1CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5DC8EFF25931A9E002A1CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5DC8F0125931A9E002A1CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5DC8FC32598E902002A1CA4 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E5DC8EF325931A9C002A1CA4 /* AppDelegate.swift */,
 				E5DC8EF525931A9C002A1CA4 /* SceneDelegate.swift */,
 				E5DC8EF725931A9C002A1CA4 /* ViewController.swift */,
+				E5DC8FC32598E902002A1CA4 /* CalculatorViewController.swift */,
 				E5DC8EF925931A9C002A1CA4 /* Main.storyboard */,
 				E5DC8EFC25931A9E002A1CA4 /* Assets.xcassets */,
 				E5DC8EFE25931A9E002A1CA4 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				E5DC8EF825931A9C002A1CA4 /* ViewController.swift in Sources */,
 				E5DC8EF425931A9C002A1CA4 /* AppDelegate.swift in Sources */,
+				E5DC8FC42598E902002A1CA4 /* CalculatorViewController.swift in Sources */,
 				E5DC8EF625931A9C002A1CA4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

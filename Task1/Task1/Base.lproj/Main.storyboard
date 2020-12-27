@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Task2VC-->
+        <!--Calculator View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="Task2VC" customModule="Task1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CalculatorViewController" customModule="Task1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -246,7 +246,7 @@
         <!--View Controller-->
         <scene sceneID="gpF-cL-6Ml">
             <objects>
-                <viewController id="Uca-Mf-zSe" sceneMemberID="viewController">
+                <viewController id="Uca-Mf-zSe" customClass="ViewController" customModule="Task1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pez-nC-bda">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -271,14 +271,18 @@
                         <viewLayoutGuide key="safeArea" id="ymV-TW-uZI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="gac-e3-WGV" firstAttribute="leading" secondItem="ymV-TW-uZI" secondAttribute="leading" constant="20" id="43f-6i-a9n"/>
+                            <constraint firstItem="gac-e3-WGV" firstAttribute="leading" secondItem="ymV-TW-uZI" secondAttribute="leading" constant="20" id="43f-6i-a9n">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstItem="wNZ-lE-vVU" firstAttribute="height" secondItem="fLZ-QO-3qK" secondAttribute="height" id="4KG-vI-JH0"/>
                             <constraint firstItem="59J-vU-R64" firstAttribute="top" secondItem="ymV-TW-uZI" secondAttribute="top" constant="40" id="4ik-tm-z5p">
                                 <variation key="heightClass=compact-widthClass=compact" constant="30"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="30"/>
                                 <variation key="heightClass=regular-widthClass=regular" constant="30"/>
                             </constraint>
-                            <constraint firstItem="gac-e3-WGV" firstAttribute="top" secondItem="59J-vU-R64" secondAttribute="bottom" constant="20" id="6PQ-Hu-S24"/>
+                            <constraint firstItem="gac-e3-WGV" firstAttribute="top" secondItem="59J-vU-R64" secondAttribute="bottom" constant="20" id="6PQ-Hu-S24">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstItem="gac-e3-WGV" firstAttribute="top" secondItem="ymV-TW-uZI" secondAttribute="top" constant="30" id="7T7-2B-2be"/>
                             <constraint firstItem="ymV-TW-uZI" firstAttribute="bottom" secondItem="gac-e3-WGV" secondAttribute="bottom" constant="30" id="7z5-d7-475"/>
                             <constraint firstItem="gac-e3-WGV" firstAttribute="width" secondItem="59J-vU-R64" secondAttribute="width" id="84z-vq-EAO"/>
@@ -292,8 +296,12 @@
                             <constraint firstItem="59J-vU-R64" firstAttribute="leading" secondItem="ymV-TW-uZI" secondAttribute="leading" constant="20" id="JG6-ow-mq7"/>
                             <constraint firstItem="wNZ-lE-vVU" firstAttribute="leading" secondItem="ymV-TW-uZI" secondAttribute="leading" constant="20" id="LYU-T2-2rr"/>
                             <constraint firstItem="59J-vU-R64" firstAttribute="height" secondItem="gac-e3-WGV" secondAttribute="height" id="Nna-VN-Cum"/>
-                            <constraint firstItem="wNZ-lE-vVU" firstAttribute="leading" secondItem="59J-vU-R64" secondAttribute="trailing" constant="20" id="O1x-sR-72C"/>
-                            <constraint firstAttribute="trailing" secondItem="fLZ-QO-3qK" secondAttribute="trailing" constant="20" id="O6e-rs-oIe"/>
+                            <constraint firstItem="wNZ-lE-vVU" firstAttribute="leading" secondItem="59J-vU-R64" secondAttribute="trailing" constant="20" id="O1x-sR-72C">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="fLZ-QO-3qK" secondAttribute="trailing" constant="20" id="O6e-rs-oIe">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstItem="fLZ-QO-3qK" firstAttribute="top" secondItem="ymV-TW-uZI" secondAttribute="top" constant="30" id="Qvt-RO-YdD"/>
                             <constraint firstItem="ymV-TW-uZI" firstAttribute="bottom" secondItem="wNZ-lE-vVU" secondAttribute="bottom" constant="30" id="RJR-9R-cVZ"/>
                             <constraint firstItem="ymV-TW-uZI" firstAttribute="bottom" secondItem="fLZ-QO-3qK" secondAttribute="bottom" constant="40" id="Y0e-M4-odP">
@@ -307,9 +315,10 @@
                             <constraint firstItem="wNZ-lE-vVU" firstAttribute="width" secondItem="59J-vU-R64" secondAttribute="width" id="hCi-NF-M95"/>
                             <constraint firstItem="wNZ-lE-vVU" firstAttribute="top" secondItem="gac-e3-WGV" secondAttribute="bottom" constant="20" id="hpv-kJ-3Sj"/>
                             <constraint firstItem="wNZ-lE-vVU" firstAttribute="top" secondItem="ymV-TW-uZI" secondAttribute="top" constant="30" id="ldc-JF-d0j"/>
-                            <constraint firstItem="fLZ-QO-3qK" firstAttribute="width" secondItem="gac-e3-WGV" secondAttribute="width" id="owS-ET-KcB"/>
                             <constraint firstItem="ymV-TW-uZI" firstAttribute="trailing" secondItem="59J-vU-R64" secondAttribute="trailing" constant="20" id="uec-9t-Ogo"/>
-                            <constraint firstItem="fLZ-QO-3qK" firstAttribute="top" secondItem="wNZ-lE-vVU" secondAttribute="bottom" constant="20" id="zZv-mg-Npe"/>
+                            <constraint firstItem="fLZ-QO-3qK" firstAttribute="top" secondItem="wNZ-lE-vVU" secondAttribute="bottom" constant="20" id="zZv-mg-Npe">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -336,7 +345,6 @@
                                 <exclude reference="hpv-kJ-3Sj"/>
                                 <exclude reference="ldc-JF-d0j"/>
                                 <exclude reference="CFM-H9-zKc"/>
-                                <exclude reference="F7k-MS-Vuf"/>
                                 <exclude reference="O6e-rs-oIe"/>
                                 <exclude reference="Qvt-RO-YdD"/>
                                 <exclude reference="YKf-jK-2Nu"/>
@@ -402,9 +410,13 @@
                                 <include reference="89V-nM-mrS"/>
                                 <include reference="RJR-9R-cVZ"/>
                                 <include reference="JG6-ow-mq7"/>
+                                <include reference="Nna-VN-Cum"/>
+                                <exclude reference="43f-6i-a9n"/>
+                                <exclude reference="6PQ-Hu-S24"/>
                                 <include reference="7T7-2B-2be"/>
                                 <include reference="84z-vq-EAO"/>
                                 <include reference="CbF-sv-mVk"/>
+                                <include reference="4KG-vI-JH0"/>
                                 <include reference="GEn-rB-64V"/>
                                 <include reference="cNH-uN-Qy9"/>
                                 <include reference="dVl-dk-CXb"/>
@@ -415,10 +427,35 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="GreenHeightPurpleHeight" destination="4KG-vI-JH0" id="L7u-C2-XE4"/>
+                        <outlet property="GreenLeadToPurpleTrail" destination="cNH-uN-Qy9" id="yS4-dU-SVY"/>
+                        <outlet property="GreenLeadingToRedTrail" destination="O1x-sR-72C" id="xip-m2-XYw"/>
+                        <outlet property="GreenTopToSATop" destination="ldc-JF-d0j" id="X2A-jv-92W"/>
+                        <outlet property="GreenWidthToPurpleWidth" destination="GEn-rB-64V" id="yKY-2B-yei"/>
+                        <outlet property="PurpleLeadToYellTrail" destination="YKf-jK-2Nu" id="7el-A1-H1V"/>
+                        <outlet property="PurpleTopToGreenBottom" destination="zZv-mg-Npe" id="Q5t-m6-JhN"/>
+                        <outlet property="PurpleTopToSATop" destination="Qvt-RO-YdD" id="8E8-lO-h9d"/>
+                        <outlet property="PurpleWidthToYellWidth" destination="F7k-MS-Vuf" id="aZe-pW-wAP"/>
+                        <outlet property="RedHeightToYellHeight" destination="Nna-VN-Cum" id="qwF-d7-x7l"/>
+                        <outlet property="RedLeadToSALead" destination="JG6-ow-mq7" id="u58-74-mdx"/>
+                        <outlet property="RedTopToSATop" destination="4ik-tm-z5p" id="VJT-YR-k3z"/>
+                        <outlet property="SABottomTOGreenBottom" destination="RJR-9R-cVZ" id="sEh-hw-7xv"/>
+                        <outlet property="SABottomToPurpleBottom" destination="Y0e-M4-odP" id="CiL-p4-vLa"/>
+                        <outlet property="SAbottomToRedBottom" destination="89V-nM-mrS" id="i4X-FE-ufu"/>
+                        <outlet property="SAbottomToYellBottom" destination="7z5-d7-475" id="Hfa-vJ-vOX"/>
+                        <outlet property="TrailToPurpleTrail" destination="O6e-rs-oIe" id="XEh-1o-PAj"/>
+                        <outlet property="TrailingToGreenTrail" destination="dVl-dk-CXb" id="bA1-uU-vLp"/>
+                        <outlet property="YellLeadToRedTrail" destination="CbF-sv-mVk" id="zGu-h4-2ll"/>
+                        <outlet property="YellLeadToSALead" destination="43f-6i-a9n" id="tNl-v1-I7r"/>
+                        <outlet property="YellTopRedBottom" destination="6PQ-Hu-S24" id="RHE-0p-9W7"/>
+                        <outlet property="YellTopToSATop" destination="7T7-2B-2be" id="9uI-3d-Gmr"/>
+                        <outlet property="YellWidthToRedWidth" destination="84z-vq-EAO" id="2TP-Tb-7Hs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6OY-Xx-dvg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1457.8330893118593" y="93.75"/>
+            <point key="canvasLocation" x="1457.8125" y="93.557833089311856"/>
         </scene>
     </scenes>
     <resources>
