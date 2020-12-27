@@ -41,11 +41,7 @@ class ViewController: UIViewController {  //landscape - portrait
   var statusBarOrientation: UIInterfaceOrientation? {
     get {
       guard let orientation = UIApplication.shared.windows.first?.windowScene?.interfaceOrientation else {
-        #if DEBUG
-        fatalError("Could not obtain UIInterfaceOrientation from a valid windowScene")
-        #else
         return nil
-        #endif
       }
       return orientation
     }
