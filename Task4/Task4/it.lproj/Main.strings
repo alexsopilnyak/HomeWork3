@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "Videos"; ObjectID = "30N-hs-Xrx"; */
+"30N-hs-Xrx.text" = "Videos";
+
+/* Class = "UIButton"; normalTitle = "Check Stats"; ObjectID = "3Ct-Az-Vr0"; */
+"3Ct-Az-Vr0.normalTitle" = "Controlla le statistiche";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "6T6-r4-uZf"; */
+"6T6-r4-uZf.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Beyound limits"; ObjectID = "7jO-tG-X6K"; */
+"7jO-tG-X6K.text" = "Oltre i limiti";
+
+/* Class = "UILabel"; text = "Big Alert Title"; ObjectID = "8dV-II-rJe"; */
+"8dV-II-rJe.text" = "Grande Testo di Avviso";
+
+/* Class = "UILabel"; text = "156"; ObjectID = "A6A-Gr-HzI"; */
+"A6A-Gr-HzI.text" = "156";
+
+/* Class = "UITextField"; placeholder = "Enter username"; ObjectID = "F5j-kC-goc"; */
+"F5j-kC-goc.placeholder" = "Inserire username";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit amet since 2015"; ObjectID = "K5A-Ep-XRg"; */
+"K5A-Ep-XRg.text" = "Lorem ipsum dolor sit amet since 2015";
+
+/* Class = "UILabel"; text = "234"; ObjectID = "Kcg-cD-qhG"; */
+"Kcg-cD-qhG.text" = "234";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Nym-Hq-0Ov"; */
+"Nym-Hq-0Ov.title" = "Fatto";
+
+/* Class = "UIButton"; normalTitle = "Check Stats"; ObjectID = "RjC-1V-R6N"; */
+"RjC-1V-R6N.normalTitle" = "Controlla le statistiche";
+
+/* Class = "UILabel"; text = "Wins"; ObjectID = "ZGv-8Z-V4i"; */
+"ZGv-8Z-V4i.text" = "Vince";
+
+/* Class = "UILabel"; text = "12356"; ObjectID = "ZJ2-9J-zvW"; */
+"ZJ2-9J-zvW.text" = "12356";
+
+/* Class = "UILabel"; text = "Player nickname"; ObjectID = "gWx-wG-usg"; */
+"gWx-wG-usg.text" = "Player nickname";
+
+/* Class = "UILabel"; text = "Hearts"; ObjectID = "jL3-UI-XNG"; */
+"jL3-UI-XNG.text" = "Cuori";
+
+/* Class = "UILabel"; text = "Player enthusiast"; ObjectID = "ovz-ex-RqQ"; */
+"ovz-ex-RqQ.text" = "Giocatore appassionato";
+
+/* Class = "UILabel"; text = "Games"; ObjectID = "sTn-jr-q2s"; */
+"sTn-jr-q2s.text" = "Giochi";
+
+/* Class = "UIButton"; normalTitle = "Give Me Some Details"; ObjectID = "skx-E9-tN2"; */
+"skx-E9-tN2.normalTitle" = "Dammi alcuni dettagli";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."; ObjectID = "yfU-6l-nOP"; */
+"yfU-6l-nOP.text" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+/* Class = "UILabel"; text = "90"; ObjectID = "zcE-kQ-CbT"; */
+"zcE-kQ-CbT.text" = "90";

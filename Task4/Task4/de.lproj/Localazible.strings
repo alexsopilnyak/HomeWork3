@@ -1,0 +1,22 @@
+/* 
+  Localazible.strings
+  Task4
+
+  Created by Alexandr Sopilnyak on 27.12.2020.
+  
+*/
+
+
+"Beyound limits" = "Beyound-Grenzen";
+"Give Me Some Details" = "Gib mir ein paar Details";
+"Player enthusiast" = "Spieler-Enthusiast";
+"Done" = "Erledigt";
+"Lorem ipsum dolor sit amet since 2015" = "Lorem ipsum dolor sit amet since 2015";
+"Check Stats" = "Check Stats";
+"Videos" = "Videos";
+"Hearts" = "Herzen";
+"Games" = "Spiele";
+"Wins" = "Siege";
+"Big Alert Text" = "Großer Alarmtext";
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
